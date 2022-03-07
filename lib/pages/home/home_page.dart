@@ -41,7 +41,6 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       food.setData(json['data']);
     });
-
   }
 
   Widget _viewFoods() {
@@ -61,8 +60,8 @@ class _HomePageState extends State<HomePage> {
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("${food.getName(index)}", style: TextStyle(fontSize: 18.0),),
-                        Text("${food.getPrice(index)} บาท"),
+                        Text("${food.getName(index)}", style: TextStyle(fontSize: 20.0,),),
+                        Text("${food.getPrice(index)} บาท", style: TextStyle(fontSize: 15.0),),
                       ],
                     )
                   ],

@@ -5,7 +5,7 @@ class foodsModel {
   }
 
   setData(var data){
-    this._data = data;
+    this._data.addAll(data);
   }
 
   getName(int index) {
