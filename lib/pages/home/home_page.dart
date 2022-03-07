@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
         title: Text('FLUTTER FOOD'),
       ),
       body: Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
+        //crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           SizedBox(height: 20.0,),
           ElevatedButton(

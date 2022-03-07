@@ -20,10 +20,6 @@ class foodsModel {
     return this._data[index]['image'];
   }
 
-  getData(int index) {
-    return this._data[index];
-  }
-
   getLength() {
     return _data.length;
   }
