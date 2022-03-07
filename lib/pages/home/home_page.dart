@@ -28,6 +28,7 @@ class _HomePageState extends State<HomePage> {
             onPressed: _handleClickButton,
             child: Text('LOAD FOODS DATA'),
           ),
+          SizedBox(height: 10.0,),
           _viewFoods(),
         ]
       ),
@@ -46,7 +47,7 @@ class _HomePageState extends State<HomePage> {
   Widget _viewFoods() {
     return Expanded(
       child: ListView.builder(
-          padding: const EdgeInsets.only(left: 20.0, right: 20.0, top: 20.0),
+          padding: const EdgeInsets.only(left: 10.0, right: 10.0,),
           shrinkWrap: true,
           itemCount: food.getLength(),
           itemBuilder: (BuildContext context, int index) {
