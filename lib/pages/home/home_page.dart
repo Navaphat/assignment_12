@@ -53,7 +53,8 @@ class _HomePageState extends State<HomePage> {
           itemBuilder: (BuildContext context, int index) {
             return Card(
               child: InkWell(
-                onTap: () {},
+                onTap: () {
+                },
                 child: Row(
                   children: [
                     Image.network(food.getImage(index).toString(), width: 125.0,),
@@ -64,7 +65,7 @@ class _HomePageState extends State<HomePage> {
                         Text("${food.getName(index)}", style: TextStyle(fontSize: 20.0,),),
                         Text("${food.getPrice(index)} บาท", style: TextStyle(fontSize: 15.0),),
                       ],
-                    )
+                    ),
                   ],
                 ),
               ),
