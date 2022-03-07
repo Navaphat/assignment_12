@@ -12,7 +12,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
 
-  foodsModel food = foodsModel();
+  final foodsModel food = foodsModel();
 
   @override
   Widget build(BuildContext context) {
