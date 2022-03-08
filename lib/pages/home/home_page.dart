@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   Widget _viewFoods() {
-    return Expanded(
+    return Flexible(
       child: ListView.builder(
           padding: const EdgeInsets.only(left: 10.0, right: 10.0,),
           shrinkWrap: true,
